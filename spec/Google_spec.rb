@@ -4,7 +4,6 @@ require_relative '../pages/NavBar'
 RSpec.describe 'Search' do
 
   before(:all) do
-    ENV['HTTP_PROXY'] = ENV['http_proxy'] = nil
     # @app = GoogleDriver.new(Selenium::WebDriver.for(:chrome))
     # @app = GoogleDriver.new(Selenium::WebDriver.for(:firefox))
     @app = GoogleDriver.new(Selenium::WebDriver.for(:phantomjs))
