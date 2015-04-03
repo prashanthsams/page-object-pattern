@@ -1,3 +1,4 @@
+require File.dirname(__FILE__) + "/../spec_helper.rb"
 require_relative '../pages/NavBar'
 
 RSpec.describe 'Search' do
