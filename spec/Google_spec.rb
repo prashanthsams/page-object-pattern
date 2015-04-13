@@ -46,7 +46,7 @@ RSpec.describe 'Search' do
         .navigate
           .NavigateToGmail
       expect(Google_gmail_search.title).to be == 'Gmail'
-      Google_gmail_search.login_gmail
+      Google_gmail_search.logn_gmail
       # @app.element_present?(:xpath, "//h2[contains(text(),'Tags')]")
   end
 end
